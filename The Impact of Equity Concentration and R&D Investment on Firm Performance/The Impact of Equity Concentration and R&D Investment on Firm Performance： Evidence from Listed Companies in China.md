@@ -174,7 +174,7 @@ For GEM companies, a dominant shareholder is not desirable. High equity concentr
 
 GEM companies should actively engage in R&D activities and convert the results into benefits. They should also effectively grasp the lag effect mechanism of R&D outcomes on company performance through proactive and efficient corporate governance to achieve the rational use of funds. Adjusting the corporate equity structure and improving the phenomenon of controlling shareholders having complete decision-making power can help. This can be achieved by diversifying equity, increasing R&D investment funds, and striving to improve corporate governance. The board of directors can also enhance the responsibility mechanism of the company by attracting certain investors to form a balanced situation of equity, raising awareness among existing shareholders, and improving corporate governance capabilities.
 
-References:
+# References:
 
 [1] Long Zi Wu, Wang Zu Xin. Equity Concentration, R&D Investment, and Corporate Financial Performance[J]. Finance and Accounting Communication, 2020(04): 41-44.
 
