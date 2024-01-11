@@ -1,0 +1,4 @@
+#将TRD_Mont.csv文件编码修改为UTF-8
+insheet using D:\CSMAR_Stata\PT_LCMAINFIN.csv
+describe
+save "D:\CSMAR_Stata\PT_LCMAINFIN.dta"
