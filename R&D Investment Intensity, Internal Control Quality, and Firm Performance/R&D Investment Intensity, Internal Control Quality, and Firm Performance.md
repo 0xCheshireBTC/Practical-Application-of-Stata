@@ -76,11 +76,17 @@ Based on existing research, this study selects four variables as control variabl
 Based on the theoretical analysis, hypotheses, and variable definitions mentioned above, this study constructs a research framework of "R&D Investment - Internal Control - Firm Performance". The firm performance is the dependent variable, and the correlation between R&D investment and firm performance, as well as the quality of internal control and firm performance, are empirically studied. To test hypothesis H1, H2, and H3, the following models are established:
 
 Model 1: Relationship between R&D Investment and Firm Performance: 
-$$\text{ROA}_{(i,t)} = \beta_0 + \beta_1 R\&D_{(i,t)} + \beta_2 SIZE_{(i,t)} + \beta_3 LEV_{(i,t)} + \beta_4 GROW_{(i,t)} + \beta_5 OCF_{(i,t)} + \beta_6 YEAR_{(i,t-1)} + ε_{(i,t)} \tag{1}$$
+
+$$\text{ROA}_{(i,t)} = \beta_0 + \beta_1 R\&D_{(i,t)} + \beta_2 SIZE_{(i,t)} + \beta_3 LEV_{(i,t)} + \beta_4 GROW_{(i,t)} + \beta_5 OCF_{(i,t)} + \beta_6 YEAR_{(i,t-1)} + \varepsilon_{(i,t)} \tag{1}$$
+
 Model 2: Relationship between Internal Control Quality and Firm Performance: 
-$$\text{ROA}_{(i,t)} = \beta_0 + \beta_1 ICQ_{(i,t)} + \beta_2 SIZE_{(i,t)} + \beta_3 LEV_{(i,t)} + \beta_4 GROW_{(i,t)} + \beta_5 OCF_{(i,t)} + \beta_6 YEAR_{(i,t-1)} + ε_{(i,t)} \tag{2}$$
+
+$$\text{ROA}_{(i,t)} = \beta_0 + \beta_1 ICQ_{(i,t)} + \beta_2 SIZE_{(i,t)} + \beta_3 LEV_{(i,t)} + \beta_4 GROW_{(i,t)} + \beta_5 OCF_{(i,t)} + \beta_6 YEAR_{(i,t-1)} + \varepsilon_{(i,t)} \tag{2}$$
+
 Model 3: Influence of Internal Control Quality on the Relationship between R&D Investment and Firm Performance: 
-$$\text{ROA}_{(i,t)} = \beta_0 + \beta_1 R\&D_{(i,t)} + \beta_2 ICQ_{(i,t)} + \beta_3 R\&D_{(i,t)} ICQ_{(i,t)} + \beta_4 SIZE_{(i,t)} + \beta_5 LEV_{(i,t)} + \beta_6 GROW_{(i,t-1)} + \beta_7 OCF_{(i,t)}+ \beta_8 YEAR_{(i,t)} + ε_{(i,t)} \tag{3}$$
+
+$$\text{ROA}_{(i,t)} = \beta_0 + \beta_1 R\&D_{(i,t)} + \beta_2 ICQ_{(i,t)} + \beta_3 R\&D_{(i,t)} ICQ_{(i,t)} + \beta_4 SIZE_{(i,t)} + \beta_5 LEV_{(i,t)} + \beta_6 GROW_{(i,t-1)} + \beta_7 OCF_{(i,t)}+ \beta_8 YEAR_{(i,t)} + \varepsilon_{(i,t)} \tag{3}$$
+
 ## 3 Empirical Analysis
 
 ### 3.1 Descriptive Statistical Analysis
