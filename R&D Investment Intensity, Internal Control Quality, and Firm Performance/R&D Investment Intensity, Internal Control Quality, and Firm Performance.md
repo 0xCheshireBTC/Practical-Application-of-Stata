@@ -77,7 +77,7 @@ Based on the theoretical analysis, hypotheses, and variable definitions mentione
 
 Model 1: Relationship between R&D Investment and Firm Performance: 
 
-$$\text{ROA}_{(i,t)} = \beta_0 + \beta_1 R\&D_{(i,t)} + \beta_2 SIZE_{(i,t)} + \beta_3 LEV_{(i,t)} + \beta_4 GROW_{(i,t)} + \beta_5 OCF_{(i,t)} + \beta_6 YEAR_{(i,t-1)} + \varepsilon_{(i,t)} \tag{1}$$
+$$ROA_{(i,t)} = \beta_0 + \beta_1 R\&D_{(i,t)} + \beta_2 SIZE_{(i,t)} + \beta_3 LEV_{(i,t)} + \beta_4 GROW_{(i,t)} + \beta_5 OCF_{(i,t)} + \beta_6 YEAR_{(i,t-1)} + \varepsilon_{(i,t)} \tag{1}$$
 
 Model 2: Relationship between Internal Control Quality and Firm Performance: 
 
