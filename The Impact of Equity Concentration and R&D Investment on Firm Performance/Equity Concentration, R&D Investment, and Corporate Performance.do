@@ -1,23 +1,23 @@
-doedit "E:\Equity Concentration, R&D Investment, and Corporate Performance\src\\Equity Concentration, R&D Investment, and Corporate Performance.do" 
-import delimited "E:\Equity Concentration, R&D Investment, and Corporate Performance\src\PT_LCMAINFIN.csv", encoding(UTF-8) 
+doedit "E:\Temp\Equity Concentration, R&D Investment, and Corporate Performance.do" 
+import delimited "E:\Temp\PT_LCMAINFIN.csv", encoding(UTF-8) 
 gen stkcd=symbol
 gen year=substr(enddate,1,4)
 destring year,replace
 sort stkcd year
-save "E:\Equity Concentration, R&D Investment, and Corporate Performance\src\PT_LCMAINFIN.dta", replace
-import delimited "E:\Equity Concentration, R&D Investment, and Corporate Performance\src\PT_LCRDSPENDING.csv", encoding(UTF-8) clear 
+save "E:\Temp\01.dta", replace
+import delimited "E:\Temp\PT_LCRDSPENDING.csv", encoding(UTF-8) clear 
 gen stkcd=symbol
 gen year=substr(enddate,1,4)
 destring year,replace
 sort stkcd year
-save "E:\Equity Concentration, R&D Investment, and Corporate Performance\src\PT_LCRDSPENDING.dta", replace
-merge stkcd year using E:\Equity Concentration, R&D Investment, and Corporate Performance\src\PT_LCMAINFIN.dta
+save "E:\Temp\02.dta", replace
+merge stkcd year using E:\Temp\01.dta
 drop _m
 sort stkcd year
-save "E:\Equity Concentration, R&D Investment, and Corporate Performance\src\02.dta", replace
-use "E:\Equity Concentration, R&D Investment, and Corporate Performance\src\Original variables excluding financial STPT.dta"
+save "E:\Temp\02.dta", replace
+use "E:\Temp\Control variable set.dta"
 sort stkcd year
-merge stkcd year using E:\Equity Concentration, R&D Investment, and Corporate Performance\src\PT_LCRDSPENDING.dta
+merge stkcd year using E:\Temp\02.dta
 drop _merge 
 sort stkcd year
 gen RD=rdspendsum/operatingevenue

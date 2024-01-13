@@ -40,23 +40,22 @@ H3: Holding other conditions constant, R&D investment mediates the relationship 
 
 #### 1. Sample Selection and Data Sources
 
-Given the growing emphasis on R&D investment in recent years, this study focused on a preliminary sample of companies listed on the ChiNext board between 2017 and 2021. The analysis excluded the following categories: financial industry companies, ST and \*ST listed companies, and companies with missing data. To mitigate the potential influence of extreme values on empirical results, the variables were Winsorized at the 1% and 99% levels using Stata16. After removing 16 observations, a total of 4081 valid samples were retained for analysis. All the data utilized in this study were obtained from the Guotai Junan Securities database and analyzed using Stata16 software for data processing.
+Given the growing emphasis on R&D investment in recent years, this study focused on a preliminary sample of companies listed on the ChiNext board between 2017 and 2021. The analysis excluded the following categories: financial industry companies, ST and \*ST listed companies, and companies with missing data. To mitigate the potential influence of extreme values on empirical results, the variables were Winsorized at the 1% and 99% levels using Stata18. After removing 16 observations, a total of 4081 valid samples were retained for analysis. All the data utilized in this study were obtained from the Guotai Junan Securities database and analyzed using Stata16 software for data processing.
 
 #### 2. Model Construction and Variable Definitions
 
 The explanatory variable in this study is enterprise performance, measured by TobinQ value, which can reflect the market value of the company. For ChiNext companies, the results of R&D investment will be reflected in the market. The explanatory variable is equity concentration (Top10), measured by the proportion of the top ten shareholders' holdings in the company. The mediator variable is R&D investment (RD), calculated as the ratio of the company's R&D expenditure to total operating income. Based on existing research, the following control variables were selected: enterprise size (Size), asset-liability ratio (Lev), cash flow (Cashflow), property + nature (SOE), return on total assets (ROA), enterprise growth (Growth), as well as virtual variables for year and industry (Indnme).
 
 The following models were constructed to conduct hypothesis testing:
-
-$TobinQ = α_1 + α_1 Top10 + α_2 Size + α_3 Lev + α_4 Growth + α_5 Cashflow + α_6 SOE + α_7 ROA + α_8 ∑ Indnme + α_9 ∑ year + ε (1)$
-$TobinQ = β_1 + β_1 RD + β_2 Size + β_3 Lev + β_4 Growth + β_5 Cashflow + β_6 SOE + β_7 ROA + β_8 ∑ Indnme + β_9 ∑ year + ε (2)$
-$TobinQ = γ_1 + γ_1 Toop10 + γ_2 RD + γ_3 Size + γ_4 Lev + γ_5 Growth + γ_6 Cashflow + γ_7 SOE + γ_8 ROA + γ_9 ∑ Indnme + γ_10 ∑ year + ε (3)$
+$TobinQ = α_1 + α_1 Top10 + α_2 Size + α_3 Lev + α_4 Growth + α_5 Cashflow + α_6 SOE + α_7 ROA + α_8 ∑ Indnme + α_9 ∑ year + ε \tag{1}$
+$TobinQ = β_1 + β_1 RD + β_2 Size + β_3 Lev + β_4 Growth + β_5 Cashflow + β_6 SOE + β_7 ROA + β_8 ∑ Indnme + β_9 ∑ year + ε \tag{2}$
+$TobinQ = γ_1 + γ_1 Toop10 + γ_2 RD + γ_3 Size + γ_4 Lev + γ_5 Growth + γ_6 Cashflow + γ_7 SOE + γ_8 ROA + γ_9 ∑ Indnme + γ_10 ∑ year + ε  \tag{3}$
 
 ### Ⅳ. Empirical Analysis
 
 #### 1. Descriptive Statistics
 
-Table 1 shows that from 2017 to 2021, the minimum value of TobinQ was 0.958, the maximum value was 10.64, and the mean was 2.252, indicating that ChiNext companies have developed well and good performance is well received in the capital market. In terms of the TOP10 indicator, the average holding proportion of the top ten shareholders in ChiNext companies is 58.31%, indicating that equity is concentrated in the hands of controlling shareholders. In ChiNext companies, R&D expenditure can amount to as much as 83.23% of total operating income, indicating a high level of importance placed on R&D. However, the minimum value is only 0.04%, suggesting that some companies may face the risk of business failure due to inadequate R&D.
+Table 1 shows that from 2017 to 2021, the minimum value of TobinQ was 0.958, the maximum value was 10.645, and the mean was 2.251, indicating that ChiNext companies have developed well and good performance is well received in the capital market. In terms of the TOP10 indicator, the average holding proportion of the top ten shareholders in ChiNext companies is 58.31%, indicating that equity is concentrated in the hands of controlling shareholders. In ChiNext companies, R&D expenditure can amount to as much as 36.57% of total operating income, indicating a high level of importance placed on R&D. However, the minimum value is only 0.20%, suggesting that some companies may face the risk of business failure due to inadequate R&D.
 
 
 Table1:Descriptive statistics of variables
@@ -96,7 +95,7 @@ Table1:Pearson correlation analysis of variables
 
 #### 3. Multiple Regression Analysis
 
-The results of the multiple regression analysis are presented in Table 3. The coefficient of equity concentration is significantly negative, indicating that a higher equity concentration in ChiNext companies has a negative impact on their performance by weakening the efficiency of resource allocation. Hypothesis 1 is confirmed. Moreover, the relationship between equity concentration and R&D investment is found to be significantly negatively correlated at the 1% level, with a regression coefficient of -0.0345. This means that a higher equity concentration in ChiNext companies results in a suppression of R&D investment, as the companies' actual controllers primarily focus on risk control and are less willing to wait for long-term enterprise performance. Hypothesis 2 is also verified.
+The results of the multiple regression analysis are presented in Table 3. The coefficient of equity concentration is significantly negative, indicating that a higher equity concentration in ChiNext companies has a negative impact on their performance by weakening the efficiency of resource allocation. Hypothesis 1 is confirmed. Moreover, the relationship between equity concentration and R&D investment is found to be significantly negatively correlated at the 1% level, with a regression coefficient of -0.042. This means that a higher equity concentration in ChiNext companies results in a suppression of R&D investment, as the companies' actual controllers primarily focus on risk control and are less willing to wait for long-term enterprise performance. Hypothesis 2 is also verified.
 
 Table 3: Multiple Regression Results
 
@@ -174,7 +173,7 @@ For GEM companies, a dominant shareholder is not desirable. High equity concentr
 
 GEM companies should actively engage in R&D activities and convert the results into benefits. They should also effectively grasp the lag effect mechanism of R&D outcomes on company performance through proactive and efficient corporate governance to achieve the rational use of funds. Adjusting the corporate equity structure and improving the phenomenon of controlling shareholders having complete decision-making power can help. This can be achieved by diversifying equity, increasing R&D investment funds, and striving to improve corporate governance. The board of directors can also enhance the responsibility mechanism of the company by attracting certain investors to form a balanced situation of equity, raising awareness among existing shareholders, and improving corporate governance capabilities.
 
-# References:
+References:
 
 [1] Long Zi Wu, Wang Zu Xin. Equity Concentration, R&D Investment, and Corporate Financial Performance[J]. Finance and Accounting Communication, 2020(04): 41-44.
 
